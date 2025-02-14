@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+#message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    background: #ff6f91;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+button:hover {
+    transform: scale(1.1);
+}
