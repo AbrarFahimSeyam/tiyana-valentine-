@@ -53,14 +53,6 @@
         function showMessage() {
             const msg = document.getElementById('message');
             msg.style.opacity = 1;
-            setTimeout(() => {
-                window.location.href = `mailto:abrarfahim6217@gmail.com?subject=Happy Valentine's Day!&body=Hey Abrar, your message made me smile!`;
-            }, 3000);
-            fetch('https://api.example.com/notify', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ email: 'abrarfahim6217@gmail.com', message: 'Tiyana clicked the Valentine message.' })
-            }).catch(console.error);
         }
     </script>
 </body>
